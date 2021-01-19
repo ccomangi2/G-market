@@ -1,0 +1,22 @@
+header
+	{
+		margin: 0 auto;
+		width: 900pt;
+		height: 173pt;
+		background-color: black;
+		position: relative;
+	}
+	#first_header
+	{
+		background-color: pink;
+		border: 5px solid red;
+	}
+
+	#search_box
+	{
+		width: 549pt;
+		height: 44pt;
+		background-color: #eeeeee;
+		padding: 8pt;
+		border: 1pt solid blue;
+	}
