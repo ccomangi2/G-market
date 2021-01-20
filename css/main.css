@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	border: 1pt solid blue;
+	
 }
 
 
@@ -115,7 +115,91 @@ body {
 	border: 1px solid black;
 }
 
+.menu .category_all {
+	width: 222px;
+	height: 60px;
+	margin-left: 160px;
+	float: left;
+}
 
+.menu .category_all button {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #10AF29;
+	font-size: 17px;
+	font-weight: bolder;
+	padding-right: 45px;
+	color: white;
+	float: left;
+	outline: none;
+	border: 1px solid #10AF29;
+}
+
+.menu .category_all button img{
+	float: left;
+	margin-left: 20px;
+}
+
+.menu .bestsellers {
+	height: 60px;
+	margin-top: 17px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 25px;
+	float: left;
+}
+
+.menu .superdeals {
+	height: 60px;
+	margin-top: 17px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 20px;
+	float: left;
+}
+
+.menu .couponzone {
+	height: 60px;
+	margin-top: 17px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 20px;
+	float: left;
+}
+
+.menu .smiledelivery {
+	height: 60px;
+	margin-top: 17px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 20px;
+	float: left;
+}
+
+.menu .catch {
+	height: 60px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 20px;
+	float: left;
+}
+
+.menu .catch img {
+	width: 45px;
+	height: auto;
+	margin-top: 30%;
+}
+
+.menu .smileclub {
+	height: 60px;
+	margin-top: 17px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #D0B99A;
+	margin-left: 20px;
+	float: left;
+}
 
 
 
