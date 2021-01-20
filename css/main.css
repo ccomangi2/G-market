@@ -1,102 +1,268 @@
-* { padding: 0px; margin: 0px; }
-	body { font-family: "Noto Sans KR", sans-serif; }
+* { 
+	padding: 0px; 
+	margin: 0px; 
+}
 
-		.container {
-			width: 100%;
-			height: 100%;
-			position: relative;
-			overflow: hidden;
-			margin: 0 auto;	
-		}
+body { 
+	font-family: "Noto Sans KR", sans-serif; 
+}
 
-		.first_header {
-			width: 100%;
-			height: 98px;
-			position: relative;
-			overflow: hidden;
-			margin: 0 auto;
-			padding-bottom: 15px;
-		}
-
-		.first_header .logo_img {
-			width: auto;
-			height: auto;
-			float: left;
-			margin-left: 165px;
-			margin-top: 40px;
-			vertical-align:middle;
-		}
-
-		.first_header .search_box {
-			width: 396pt;
-			height: 17pt;
-			float: left;
-			padding: 8pt;
-			margin-left: 30px;
-			margin-top: 40px;
-			border-radius: 100px;
-			border: 1.7pt solid #2F92FD;
-		}
-
-		.first_header .search_box input {
-			width: 89%;
-			height: 100%;
-			font-size:18px;
-			float: left;
-			margin: 0 auto;
-			outline: none;
-			border: 0px;
-			padding-left: 12px;
-		}
-
-		.first_header .search_box button {
-			width: 8%;
-			height: 100%;
-			float: right;
-			margin: 0 auto;
-			outline: none;
-			border: 0px;
-			background-color: white;
-		}
-
-		.first_header .event_img {
-			width: auto;
-			height: auto;
-			float: left;
-			margin-left: 40px;
-			margin-top: 30px;
-		}
-
-		.first_header .mypage_img {
-			float: left;
-			margin-left: 35px;
-			margin-top: 45px;
-		}
-		.first_header .navigation_img {
-			float: left;
-			margin-left: 35px;
-			margin-top: 43px;
-		}
-
-		.first_header .navigation_img button {
-			margin: 0 auto;
-			outline: none;
-			border: 0px;
-			background-color: white;
-		}
-
-		.first_header .cart_img {
-			float: left;
-			margin-left: 27px;
-			margin-top: 43px;
-		}
+.container {
+	border: 1pt solid blue;
+}
 
 
-		.menu {
-			width: 100%;
-			height: 460px;
-			position: relative;
-			overflow: hidden;
-			margin: 0 auto;
-			border: 1px solid black;
-		}
+
+/****************header****************/
+.container#header {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;	
+	background-color: pink;
+}
+
+.first_header {
+	width: 100%;
+	height: 98px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.first_header .logo_img {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 165px;
+	margin-top: 40px;
+	vertical-align:middle;
+}
+
+.first_header .search_box {
+	width: 396pt;
+	height: 17pt;
+	float: left;
+	padding: 8pt;
+	margin-left: 30px;
+	margin-top: 40px;
+	border-radius: 100px;
+	border: 1.7pt solid #2F92FD;
+}
+
+.first_header .search_box input {
+	width: 89%;
+	height: 100%;
+	font-size:18px;
+	float: left;
+	margin: 0 auto;
+	outline: none;
+	border: 0px;
+	padding-left: 12px;
+}
+
+.first_header .search_box button {
+	width: 8%;
+	height: 100%;
+	float: right;
+	margin: 0 auto;
+	outline: none;
+	border: 0px;
+	background-color: white;
+}
+
+.first_header .event_img {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.first_header .mypage_img {
+	float: left;
+	margin-left: 35px;
+	margin-top: 45px;
+}
+.first_header .navigation_img {
+	float: left;
+	margin-left: 35px;
+	margin-top: 43px;
+}
+
+.first_header .navigation_img button {
+	margin: 0 auto;
+	outline: none;
+	border: 0px;
+	background-color: white;
+}
+
+.first_header .cart_img {
+	float: left;
+	margin-left: 27px;
+	margin-top: 43px;
+}
+
+
+.menu {
+	width: 100%;
+	height: 460px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+/****************main****************/
+.container#main {
+	width: 100%;
+	height: 100%;
+	background-color: #ffa187;
+	font-size: 18pt;
+}
+
+
+.in_main_container#best_product {
+	width: 900pt;
+	height: 280pt;
+	margin: 0 auto;	
+	background-color: #658c6e;
+}
+
+.in_main_container#market {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: red;
+}
+
+.in_market#gmarket_shopping {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #eae1eb;
+}
+
+.in_market#smile_shopping {
+	width: 50%;
+	height: 100%;
+	float: left;	
+	background-color: #c98ad4;
+}
+
+.in_main_container#gmarket_service {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #87ffcf;
+}
+
+.in_main_container#banner {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #f7ecd7;
+}
+
+.in_main_container#homeshopping {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #f2f4ff;
+}
+
+.in_main_container#catch {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #949ed4;
+}
+
+.in_main_container#superdeal {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #9e7ea6;
+}
+
+.in_main_container#overseas {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #f067a9;
+}
+
+
+.in_main_container#trand_G9 {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #d1a479;
+}
+
+
+.in_main_container#focus {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #8db2b5;
+}
+
+
+.in_main_container#power {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: #9cd444;
+}
+
+.in_main_container#ad {
+	width: 900pt;
+	height: 400pt;
+	margin: 0 auto;	
+	background-color: red;
+}
+
+.in_ad#minishop {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #eae1eb;
+}
+
+.in_ad#chance {
+	width: 50%;
+	height: 100%;
+	float: left;	
+	background-color: #c98ad4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************footer****************/
+.container#footer {
+	width: 100%;
+	height: 300pt;
+	background-color: #c6c3e6;
+}
