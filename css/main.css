@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	
+	/*border: 1px solid blue;*/
 }
 
 
@@ -24,7 +24,7 @@ body {
 }
 
 .first_header {
-	width: 100%;
+	width: 1200px;
 	height: 98px;
 	position: relative;
 	overflow: hidden;
@@ -36,7 +36,6 @@ body {
 	width: auto;
 	height: auto;
 	float: left;
-	margin-left: 165px;
 	margin-top: 40px;
 	vertical-align:middle;
 }
@@ -107,7 +106,7 @@ body {
 
 
 .menu {
-	width: 100%;
+	width: 1200px;
 	height: 460px;
 	position: relative;
 	overflow: hidden;
@@ -118,7 +117,6 @@ body {
 .menu .category_all {
 	width: 222px;
 	height: 60px;
-	margin-left: 160px;
 	float: left;
 }
 
@@ -218,14 +216,14 @@ body {
 
 
 .container_in_main#best_product {
-	width: 900pt;
+	width: 1200px;
 	height: 280pt;
 	margin: 0 auto;	
 	background-color: #cfe8cf;
 }
 
 .container_in_main#market {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: red;
@@ -246,42 +244,42 @@ body {
 }
 
 .container_in_main#gmarket_service {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #87ffcf;
 }
 
 .container_in_main#banner {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #f7ecd7;
 }
 
 .container_in_main#homeshopping {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #f2f4ff;
 }
 
 .container_in_main#catch {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #949ed4;
 }
 
 .container_in_main#superdeal {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #9e7ea6;
 }
 
 .container_in_main#overseas {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #f067a9;
@@ -289,7 +287,7 @@ body {
 
 
 .container_in_main#trand_G9 {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #d1a479;
@@ -297,7 +295,7 @@ body {
 
 
 .container_in_main#focus {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #8db2b5;
@@ -305,14 +303,14 @@ body {
 
 
 .container_in_main#power {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: #9cd444;
 }
 
 .container_in_main#ad {
-	width: 900pt;
+	width: 1200px;
 	height: 400pt;
 	margin: 0 auto;	
 	background-color: red;
@@ -333,7 +331,7 @@ body {
 }
 
 .container_in_main#notice {
-	width: 900pt;
+	width: 1200px;
 	height: 20pt;
 	margin: 50pt auto;	
 	background-color: #9cd444;
@@ -394,16 +392,15 @@ body {
 
 /****************footer****************/
 .container#footer {
-	width: 900pt;
+	width: 1200px;
 	height: auto;
-	background-color: #c6c3e6;
+	/*background-color: #c6c3e6;*/
 	margin: 0 auto;
-	margin-bottom: 100pt;
 }
 
 
 .container_in_footer#utility {
-	border-bottom: 1pt solid #aaaaaa;
+	border-bottom: 1pt solid #eeeeee;
 	padding: 5pt 0;
 }
 
@@ -420,9 +417,11 @@ body {
 	display: inline-block;
 	padding: 0 13pt;
 	margin: 5pt 0;
-	font-size: 11pt;
-	letter-spacing: -2px;
-	border-left: 1px solid #aaaaaa;
+	border-left: 1px solid #dddddd;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: #5e636d;
 }
 
 .list-item_utility#introduce {
@@ -430,52 +429,121 @@ body {
 	border-left: 0px solid black;
 }
 
+.list-item_utility#information {
+    font-weight: bold;
+}
+
 .container_in_utility#sellermenu {
 	display: inline-block;
 	background-color: white;
-	height: 21pt;
-	width: 100pt;
+	height: 32px;
+	width: 115px;
 	text-align-last: center;
-	border: 1pt solid #dddddd;
-	color: #555555;
+	border: 1px solid #dddddd;
+    color: #5e636d;
 	font-size: 11pt;
 	font-weight: 700;
 	float: right;
-	margin-right: 5pt;
+    line-height: 30px;
+    font-size: 14px;
+    letter-spacing: -1px;
 
 }
 
 
 .container_in_footer#company_info{
+	height: 95px;
+	padding-top: 13px;
+	padding-bottom: 19px;
+	border-bottom: 1pt solid #eeeeee;
 }
 
 .container_in_company_info {
 	display: inline-block;
 	width: 50%;
 	float: left;
-	padding: 15pt 0;
-	border-bottom: 1pt solid #aaaaaa;
 }
 
 .container_in_company_info * {
 	display: inline-block;
+    font-size: 13px;
+    line-height: 23px;
+	letter-spacing: -1px;
+    color: #757c8a;
 }
+
+.line_block {
+	display: block;	
+}
+
+.test_in_company_detail_info#company_title {
+	font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+	display: block;
+    color: #5e636d;
+}
+
+.test_in_cscenter_info#cscenter_title {
+	font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+	display: block;
+    color: #5e636d;
+}
+
+.test_in_cscenter_info .call_number_in_cscenter {
+	color: #2e8de5;
+}
+
+
+
+
 
 
 .container_in_footer#legal_info {
-	padding: 15pt 0;
-	border-bottom: 1pt solid #aaaaaa;
+	padding-top: 9px;
+	padding-bottom: 18px;
+	border-bottom: 1pt solid #eeeeee;
 	font-size: 10pt;
 	letter-spacing: -2px;
-}
-.container_in_footer#legal_info * {
-	display: inline-block;
+	height: 54px;
 }
 
+.list-item_legal_info {
+	display: inline-block;
+	padding-top: 7px;
+	margin-right: 30px;
+    color: #94989f;
+    font-size: 13px;
+}
+
+.list-item_legal_info * {
+}
+
+.list-item_legal_info .test_in_banking_trouble {
+	display: inline-block;
+    letter-spacing: -1px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
 .container_in_footer#footer_notice {
-	font-size: 10pt;
+	font-size: 12px;
 	letter-spacing: -2px;
 	color: #777777;
+	height: 91px;
+	padding-top: 16px;
+	padding-bottom: 85px;
+    line-height: 20px;
 }
 
 .test_in_footer_notice#notice_first a {
@@ -489,4 +557,9 @@ body {
 
 .test_in_footer_notice#online_society {
 	margin-top: 10pt;
+}
+
+.test_in_footer_notice#online_society * {
+	display: inline-block;
+	margin-right: 8px;
 }
