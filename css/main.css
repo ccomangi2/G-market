@@ -49,6 +49,7 @@ a, a:hover, a:active, a:focus {
 	font-size: 24px;
     color: #222;
     letter-spacing: -1px;
+	display: inline-block;
 }
 
 
@@ -386,26 +387,73 @@ a, a:hover, a:active, a:focus {
 	background-color: #9cd444;
 }
 
+
+
+
+
 .container_in_main#ad {
 	width: 1200px;
-	height: 400pt;
 	margin: 0 auto;	
 	background-color: red;
+	padding-top: 48px;
 }
 
 .in_ad#minishop {
-	width: 50%;
-	height: 100%;
-	float: left;
+	display: inline-block;
+	width: 465px;
 	background-color: #eae1eb;
 }
 
-.in_ad#chance {
-	width: 50%;
+.in_ad#minishop .ad_tooltip {
+	display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+
+.in_ad#minishop .ad_tooltip .button_ad_tooltip {
+	border: none;
+	background: no-repeat -154px -144px url("../image/sprite__homemain.png");
+    width: 20px;
+    height: 14px;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+.in_ad#minishop .ad_tooltip .button_ad_tooltip:hover {
+	/*파워미니샵이란?*/
+}
+
+.in_ad#minishop .container_item_area {
+	height: 332px;
+	margin-top: 19px;
+}
+
+.in_ad#minishop .container_item_area .item_img {
+	display: inline-block;
+	height: 332px;
+}
+
+.in_ad#minishop .container_item_area .item_img img {
+	width: 100%;
 	height: 100%;
-	float: left;	
+}
+
+
+
+
+
+
+
+
+.in_ad#chance {
+	display: inline-block;
+	width: 710px;
 	background-color: #c98ad4;
 }
+
+
+
+
 
 
 
