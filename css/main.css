@@ -3,7 +3,7 @@
 	margin: 0px; 
 }
 
-body { 
+body, button { 
 	font-family: "Noto Sans KR", sans-serif; 
 }
 
@@ -11,6 +11,32 @@ body {
 	/*border: 1px solid blue;*/
 }
 
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+
+.allow_up {
+	display: inline-block;
+	width: 16px;
+    height: 16px;
+
+	background: no-repeat -376px -112px url("../image/sprite__common.png");
+    background-size: 400px auto;
+    text-indent: -9999px;
+    vertical-align: bottom;
+}
+
+.allow_down {
+	display: inline-block;
+	width: 16px;
+    height: 16px;
+
+	background: no-repeat -340px -112px url("../image/sprite__common.png");
+    background-size: 400px auto;
+    text-indent: -9999px;
+    vertical-align: bottom;
+}
 
 
 /****************header****************/
@@ -423,9 +449,12 @@ body {
 
 /****************footer****************/
 .container#footer {
-	width: 1200px;
+	width: 100%;
 	height: auto;
-	/*background-color: #c6c3e6;*/
+	background-color: #fafafa;
+}
+.container_in_footer {
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -452,7 +481,11 @@ body {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -1px;
+}
+
+.list-item_utility a {
     color: #5e636d;
+
 }
 
 .list-item_utility#introduce {
@@ -466,20 +499,25 @@ body {
 
 .container_in_utility#sellermenu {
 	display: inline-block;
-	background-color: white;
-	height: 32px;
-	width: 115px;
-	text-align-last: center;
-	border: 1px solid #dddddd;
-    color: #5e636d;
-	font-size: 11pt;
-	font-weight: 700;
 	float: right;
-    line-height: 30px;
-    font-size: 14px;
-    letter-spacing: -1px;
 
 }
+.container_in_utility#sellermenu .button_in_utility#sellermenu {
+	text-align-last: center;
+	width: 115px;
+	height: 32px;
+	border: 1px solid #dddddd;
+	background-color: white;
+    letter-spacing: -1px;
+	background-color: #ffffff;
+    font-size: 14px;
+    color: #5e636d;
+	font-size: 11pt;
+}
+
+	
+	
+
 
 
 .container_in_footer#company_info{
@@ -515,6 +553,18 @@ body {
     color: #5e636d;
 }
 
+
+.test_in_company_detail_info#business_info a {
+    width: 86px;
+    height: 20px;
+    margin: -2px 8px 0 3px;
+    vertical-align: middle;
+
+	background: no-repeat -292px -298px url("../image/sprite__common.png");
+    background-size: 400px auto;
+    text-indent: -9999px;
+}
+
 .test_in_cscenter_info#cscenter_title {
 	font-size: 14px;
     line-height: 20px;
@@ -537,7 +587,7 @@ body {
 	padding-bottom: 18px;
 	border-bottom: 1pt solid #eeeeee;
 	font-size: 10pt;
-	letter-spacing: -2px;
+	letter-spacing: 0px;
 	height: 54px;
 }
 
@@ -550,11 +600,21 @@ body {
 }
 
 .list-item_legal_info * {
+    color: #94989f;
+    font-size: 13px;
+}
+
+.list-item_legal_info .button_in_legal_info#trouble_step {
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+	border: none;
+	background-color: #ffffff00;
+
 }
 
 .list-item_legal_info .test_in_banking_trouble {
 	display: inline-block;
-    letter-spacing: -1px;
     margin-left: 8px;
 }
 
@@ -569,7 +629,6 @@ body {
 
 .container_in_footer#footer_notice {
 	font-size: 12px;
-	letter-spacing: -2px;
 	color: #777777;
 	height: 91px;
 	padding-top: 16px;
@@ -577,20 +636,46 @@ body {
     line-height: 20px;
 }
 
-.test_in_footer_notice#notice_first a {
+.text_in_footer_notice#notice_first .button_in_notice#content_industry {
 	margin-left: 10pt;
-
+	border: none;
+	background-color: #ffffff00;
+	font-size: 12px;
+	color: #777777;
+	text-decoration: underline;
 }
 
-.test_in_footer_notice#notice_second {
+.text_in_footer_notice#notice_second {
 	color: black;
 }
 
-.test_in_footer_notice#online_society {
+.text_in_footer_notice#online_society {
 	margin-top: 10pt;
 }
 
-.test_in_footer_notice#online_society * {
+.text_in_footer_notice#online_society * {
 	display: inline-block;
 	margin-right: 8px;
+}
+
+.text_in_footer_notice#online_society .image_KOLSA {
+
+    width: 41px;
+    height: 16px;
+
+	background: no-repeat -205px -129px url("../image/sprite__common.png");
+    background-size: 400px auto;
+    text-indent: -9999px;
+    vertical-align: bottom;
+}
+
+
+.text_in_footer_notice#online_society .button_in_online_society#award-layer {
+	border: none;
+	background-color: #ffffff00;
+
+	font-size: 12px;
+	color: #777777;
+	text-decoration: underline;
+	height: 17px;
 }
