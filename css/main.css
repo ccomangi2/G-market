@@ -424,16 +424,14 @@ a, a:hover, a:active, a:focus {
 }
 
 .container_in_main .font_in_fontguide#gmarketsans {
-	padding-top: 12pt;
-	text-align: center;
-	font-size: 13pt;
-	color: white;
+	width: 1200px;
+	margin: 0 auto;
+	background: no-repeat 100% url("../image/image__font-guide-banner.png");
+    background-size: 100% auto;
+    height: 100%;
+    text-indent: -9999px;
 }
 
-.container_in_main .font_in_fontguide#gmarketsans h4 {
-	display: inline-block;
-	color: white;
-}
 
 
 
