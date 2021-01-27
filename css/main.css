@@ -1,3 +1,9 @@
+@font-face {
+	src : url("../font/GmarketSansTTFMedium.ttf");
+	font-family: "G Market Sans";
+
+}
+
 * { 
 	padding: 0px; 
 	margin: 0px; 
@@ -36,6 +42,13 @@ a, a:hover, a:active, a:focus {
     background-size: 400px auto;
     text-indent: -9999px;
     vertical-align: bottom;
+}
+
+.title_in_main {
+	font-family: Gmarket Sans,"G Market Sans", sans-serif; 
+	font-size: 24px;
+    color: #222;
+    letter-spacing: -1px;
 }
 
 
@@ -263,6 +276,13 @@ a, a:hover, a:active, a:focus {
 
 
 
+
+
+
+
+
+
+
 /****************main****************/
 .container#main {
 	width: 100%;
@@ -387,6 +407,10 @@ a, a:hover, a:active, a:focus {
 	background-color: #c98ad4;
 }
 
+
+
+
+
 .container_in_main#notice {
 	width: 1200px;
 	height: 19.2px;
@@ -431,6 +455,11 @@ a, a:hover, a:active, a:focus {
     height: 100%;
     text-indent: -9999px;
 }
+
+
+
+
+
 
 
 
